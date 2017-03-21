@@ -1,6 +1,6 @@
 ![holovideo by MIT Media Lab](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/holovideo-300x222.jpg)
 
-# holovideo-mit [![Build Status](https://travis-ci.org/itsermo/holovideo-mit.svg?branch=master)](https://travis-ci.org/itsermo/holovideo-mit)
+# holovideo-mit
 
 Holographic Video by MIT Media Lab and BYU Electro-Holography
 
@@ -19,16 +19,16 @@ This is a collection of algorithms that generate interference patterns in real t
 
 Algorithms using physically-based interference modeling are more computationally involved, as they performs an actual physical simulation of wavefront interference on a simulated hologram plane.  This is also known as "Fresnel" computation, and an example of this is given in the last entry.
 
-- [dscp4](holovideo-src/render_algorithms/dscp4) - Diffraction-specific Coherent Panoramagram for Full-Color Holographic Displays [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/PW2015.pdf) 2015
-- [holodepth](holovideo-src/render_algorithms/holodepth) - Diffraction-specific Coherent Panoramagram for Monochromatic Holographic Displays w/Accomodation Cues [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/7619-02.pdf) 2012
-- [ripgen-fbo](holovideo-src/render_algorithms/ripgen-fbo) - Reconfigurable Image Projection Holograms [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/JOE115801.pdf) 2006
-- [fresnel-mkii](holovideo-src/render_algorithms/fresnel-mkii) - Physically-based Interference Modeling Algorithm (Fresnel-Huygens wavelet interference computation) for monochrome MIT Mark II display in Cuda - 2012
+- [dscp4](https://github.com/itsermo/holovideo-algorithms/render_algorithms/dscp4) - Diffraction-specific Coherent Panoramagram for Full-Color Holographic Displays [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/PW2015.pdf) 2015
+- [holodepth](https://github.com/itsermo/holovideo-algorithms/render_algorithms/holodepth) - Diffraction-specific Coherent Panoramagram for Monochromatic Holographic Displays w/Accomodation Cues [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/7619-02.pdf) 2012
+- [ripgen-fbo](https://github.com/itsermo/holovideo-algorithms/render_algorithms/ripgen-fbo) - Reconfigurable Image Projection Holograms [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/JOE115801.pdf) 2006
+- [fresnel-mkii](https://github.com/itsermo/holovideo-algorithms/render_algorithms/fresnel-mkii) - Physically-based Interference Modeling Algorithm (Fresnel-Huygens wavelet interference computation) for monochrome MIT Mark II display in Cuda - 2012
 
 For a good overview of these methods and the theory behind computer generated holograms for holovideo displays, refer to Benton, S.A. and Bove, V.M. Jr. (2008) *[Holographic Imaging](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047006806X.html)* (pp. 207-231). Hoboken, NJ: John Wiley and Sons, Inc. Chapter 19 - Computational Display Holography.
 
 ## Holographic Telepresence
 
-- [holosuite](holosuite-src) - An interactive end-to-end 3D telepresence software that takes input from OpenNI depth-sensing cameras, such as PrimeSense, and outputs to Z-Space 3D displays, MIT Mark II and MIT/BYU Mark IV holographic displays.  Two users can simultaneously talk to each other and collaborate in a shared 3D environment [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/dreshaj_ermal_holosuite_thesis_v6_final.pdf) [[VIDEO]](https://vimeo.com/136748726)
+- [holosuite](https://github.com/itsermo/holosuite) - An interactive end-to-end 3D telepresence software that takes input from OpenNI depth-sensing cameras, such as PrimeSense, and outputs to Z-Space 3D displays, MIT Mark II and MIT/BYU Mark IV holographic displays.  Two users can simultaneously talk to each other and collaborate in a shared 3D environment [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/dreshaj_ermal_holosuite_thesis_v6_final.pdf) [[VIDEO]](https://vimeo.com/136748726)
 
 ## Compiling
 
