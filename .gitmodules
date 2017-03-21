@@ -1,0 +1,6 @@
+[submodule "holovideo-src"]
+	path = holovideo-src
+	url = https://github.com/itsermo/holovideo-algorithms
+[submodule "holosuite-src"]
+	path = holosuite-src
+	url = https://github.com/itsermo/holosuite
