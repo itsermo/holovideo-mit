@@ -19,10 +19,10 @@ This is a collection of algorithms that generate interference patterns in real t
 
 Algorithms using physically-based interference modeling are more computationally involved, as they performs an actual physical simulation of wavefront interference on a simulated hologram plane.  This is also known as "Fresnel" computation, and an example of this is given in the last entry.
 
-- [dscp4](https://github.com/itsermo/holovideo-algorithms/render_algorithms/dscp4) - Diffraction-specific Coherent Panoramagram for Full-Color Holographic Displays [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/PW2015.pdf) 2015
-- [holodepth](https://github.com/itsermo/holovideo-algorithms/render_algorithms/holodepth) - Diffraction-specific Coherent Panoramagram for Monochromatic Holographic Displays w/Accomodation Cues [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/7619-02.pdf) 2012
-- [ripgen-fbo](https://github.com/itsermo/holovideo-algorithms/render_algorithms/ripgen-fbo) - Reconfigurable Image Projection Holograms [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/JOE115801.pdf) 2006
-- [fresnel-mkii](https://github.com/itsermo/holovideo-algorithms/render_algorithms/fresnel-mkii) - Physically-based Interference Modeling Algorithm (Fresnel-Huygens wavelet interference computation) for monochrome MIT Mark II display in Cuda - 2012
+- [dscp4](https://github.com/itsermo/holovideo-algorithms/tree/master/render_algorithms/dscp4) - Diffraction-specific Coherent Panoramagram for Full-Color Holographic Displays [[PAPER]](http://obm.media.mit.edu/wp-content/uploads/sites/10/2012/09/PW2015.pdf) 2015
+- [holodepth](https://github.com/itsermo/holovideo-algorithms/tree/master/render_algorithms/holodepth) - Diffraction-specific Coherent Panoramagram for Monochromatic Holographic Displays w/Accomodation Cues [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/7619-02.pdf) 2012
+- [ripgen-fbo](https://github.com/itsermo/holovideo-algorithms/tree/master/render_algorithms/ripgen-fbo) - Reconfigurable Image Projection Holograms [[PAPER]](http://excedrin.media.mit.edu/wp-content/uploads/sites/10/2013/07/JOE115801.pdf) 2006
+- [fresnel-mkii](https://github.com/itsermo/holovideo-algorithms/tree/master/render_algorithms/fresnel-mkii) - Physically-based Interference Modeling Algorithm (Fresnel-Huygens wavelet interference computation) for monochrome MIT Mark II display in Cuda - 2012
 
 For a good overview of these methods and the theory behind computer generated holograms for holovideo displays, refer to Benton, S.A. and Bove, V.M. Jr. (2008) *[Holographic Imaging](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047006806X.html)* (pp. 207-231). Hoboken, NJ: John Wiley and Sons, Inc. Chapter 19 - Computational Display Holography.
 
